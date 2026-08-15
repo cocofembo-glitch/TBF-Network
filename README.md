@@ -18,8 +18,10 @@ A stylish and powerful CLI utility for network diagnostics and speed testing des
 1. **Update packages and install Python & Git:**
    ```bash
    pkg update && pkg upgrade -y
-   pkg install python git -y
-   git clone https://github.com/Cocofembo-glith/TBF-Network.git
+pkg install python git -y
+git clone https://github.com/cocofembo-glith/TBF-Network.git
 cd TBF-Network
+pip install -r requirements.txt
 python tbf_network.py
+
 
