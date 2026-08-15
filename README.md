@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # TBF-Network & Diagnostics Tool v1.0
 
 Console network diagnostic utility for Termux built with Python and Rich.
