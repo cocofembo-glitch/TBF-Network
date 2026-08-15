@@ -19,4 +19,7 @@ A stylish and powerful CLI utility for network diagnostics and speed testing des
    ```bash
    pkg update && pkg upgrade -y
    pkg install python git -y
-   
+   git clone https://github.com/YOUR_USERNAME/TBF-Network.git(https://github.com/YOUR_USERNAME/TBF-Network.git)
+cd TBF-Network
+python tbf_network.py
+
