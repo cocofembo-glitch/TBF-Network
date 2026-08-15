@@ -1,13 +1,22 @@
-# TBF-Network & Diagnostics Tool v1.0
+# TBF-Network & Diagnostics Tool v1.0 ULTIMATE
 
-Console network diagnostic utility for Termux built with Python and Rich.
+A stylish and powerful CLI utility for network diagnostics and speed testing designed for **Termux** (Android) and **Linux**, built with Python and the `rich` library.
 
-## Features
-- Falling text animation & system intro
-- Local & Public IP retrieval
-- Multi-host TCP ping checks
-- Integrated Speedtest Engine
-EOF
+---
 
-git add README.md
-git commit -m "Add README"
+## 🚀 Key Features
+
+* 🎬 **Animated Intro:** Falling text animation + system initialization progress bars.
+* 🌐 **Network Identifiers:** Instant retrieval of Local and Public IP addresses.
+* 📡 **TCP Ping:** Low-latency checks for popular DNS servers and endpoints (Google, Cloudflare, Telegram API, GitHub).
+* ⚡ **Speedtest Engine:** Accurate measurement of Download speed, Upload speed, and Server Ping.
+
+---
+
+## 🛠 Installation & Usage in Termux
+
+1. **Update packages and install Python & Git:**
+   ```bash
+   pkg update && pkg upgrade -y
+   pkg install python git -y
+   
